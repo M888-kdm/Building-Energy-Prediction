@@ -1,0 +1,5 @@
+.DS_Store
+mlruns/
+mlartifacts/
+notebooks/logs.log
+__pycache__/

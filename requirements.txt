@@ -1,0 +1,17 @@
+loguru
+pandas
+missingno
+numpy
+ppscore
+matplotlib
+ydata-profiling
+scikit-learn
+yellowbrick
+pycaret
+xgboost
+ipykernel
+wandb
+pendulum
+mlflow
+lightgbm
+numba==0.58.1
