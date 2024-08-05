@@ -1,5 +1,7 @@
 """Project parameters"""
 
+import os
+
 MODEL_PARAMS = {
     "MIN_COMPLETION_RATE": 0.75,
     "TARGET_NAME": "SiteEnergyUse(kBtu)",
@@ -9,5 +11,6 @@ MODEL_PARAMS = {
     "MIN_PPS": 0.05,
     "SEED": 42
 }
-
 SEED = 42
+DATASETS_DIR = "../datasets"
+RAW_DATA=os.path.join(DATASETS_DIR, "raw_data.csv")
