@@ -1,6 +1,6 @@
 import mlflow
 
-def mlflow_log_grid_search(search):
+def mlflow_log_search(search):
   """Logs the results of a GridSearchCV to MLflow.
 
   Args:
