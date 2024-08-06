@@ -1,0 +1,18 @@
+{
+    "condition": null,
+    "conditionVersion": null,
+    "createdBy": null,
+    "createdOn": "2024-08-06T09:32:54.322692+00:00",
+    "delegatedManagedIdentityResourceId": null,
+    "description": null,
+    "id": "/subscriptions/fd1d13ef-c544-46f9-ab41-ee24e360a8c6/resourceGroups/mlops-project-res-group/providers/Microsoft.Authorization/roleAssignments/b1702c90-1ad8-4504-ae26-08f993650260",
+    "name": "b1702c90-1ad8-4504-ae26-08f993650260",
+    "principalId": "75f4faee-6fe8-4d46-a9a8-7ad81ee99d91",
+    "principalType": "ServicePrincipal",
+    "resourceGroup": "mlops-project-res-group",
+    "roleDefinitionId": "/subscriptions/fd1d13ef-c544-46f9-ab41-ee24e360a8c6/providers/Microsoft.Authorization/roleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+    "scope": "/subscriptions/fd1d13ef-c544-46f9-ab41-ee24e360a8c6/resourceGroups/mlops-project-res-group",
+    "type": "Microsoft.Authorization/roleAssignments",
+    "updatedBy": "49992abb-9416-4a3c-92bf-487ba61819fc",
+    "updatedOn": "2024-08-06T09:32:54.527694+00:00"
+  }
