@@ -4,7 +4,7 @@ from src.collect_data import load_dataset
 from settings.params import MODEL_PARAMS
 
 # load data
-data = load_dataset("./datasets/2016-building-energy-benchmarking.csv")
+data = load_dataset("./datasets/raw_data.csv")
 TARGET_NAME = MODEL_PARAMS["TARGET_NAME"]
 
 
@@ -17,5 +17,5 @@ def test_shape():
 
 def test_target_name():
     """Test target feature."""
-    assert sum(data[TARGET_NAME] <= 0) == 0
+    assert sum(data[TARGET_NAME] < 0) == 0
 

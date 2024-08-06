@@ -1,5 +1,4 @@
 import mlflow
-import pandas as pd
 
 def mlflow_log_search(search):
   """Logs the results of a GridSearchCV to MLflow.
