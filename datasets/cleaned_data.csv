@@ -1,6 +1,7 @@
 PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestPropertyUseTypeGFARatio,LargestPropertyUseType,BuildingType,ThirdLargestPropertyUseTypeGFARatio,SiteEnergyUse(kBtu)
 88434,1.0,12.0,0.0,Hotel,NonResidential,0.0,6981428.0
 103566,0.8099183129598517,11.0,0.1454531409922175,Hotel,NonResidential,0.04462854604793079,8354235.0
+61320,1.0,10.0,0.0,Hotel,NonResidential,0.0,28229320.0
 119890,1.0296521811660688,18.0,0.5672616565184753,Hotel,NonResidential,0.0,14829099.0
 97288,0.9130622481703807,2.0,0.0,Police Station,Nonresidential COS,0.0,12051984.0
 83008,0.9800501156515035,11.0,0.0,Hotel,NonResidential,0.0,6252842.0
@@ -214,6 +215,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 91091,0.9847185781251715,6.0,0.015281421874828468,Office,NonResidential,0.0,2373031.0
 157941,0.5371499483984525,8.0,0.09751109591556341,Office,NonResidential,0.0,3157579.0
 635303,0.822705071438353,29.0,0.3060508135488106,Office,NonResidential,0.013917768371942207,18350766.0
+172842,0.5340715798243483,6.0,0.22758357343701183,Office,NonResidential,0.14464077018317306,41092076.0
 776762,0.7802261181674696,34.0,0.19947808981386833,Office,NonResidential,0.0,30135280.0
 186768,0.9773622890430909,14.0,0.18028248950569692,Office,NonResidential,0.0012850167052171678,9700372.0
 1123435,0.7200950655801182,49.0,0.20673025141641482,Office,NonResidential,0.026996666473805782,47148456.0
@@ -303,6 +305,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 139200,0.5897844827586207,7.0,0.0,Office,NonResidential,0.0,4842910.0
 95721,0.6456263515842918,6.0,0.0,No information,NonResidential,0.0,3066228.0
 213283,0.4949433381938551,5.0,0.0,Office,NonResidential,0.0,6388260.0
+103697,0.6094583256989112,3.0,0.0,Office,NonResidential,0.0,15324777.0
 74880,0.958213141025641,5.0,0.0,Office,NonResidential,0.0,4428557.0
 88774,0.9613062383130195,6.0,0.0,Office,NonResidential,0.0,6057734.0
 122250,0.7466748466257669,5.0,0.24684662576687116,Office,NonResidential,0.04851533742331288,6022054.0
@@ -365,6 +368,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 106041,1.0,4.0,0.0,Non-Refrigerated Warehouse,NonResidential,0.0,1118392.0
 94470,1.0,3.0,0.0,Self-Storage Facility,NonResidential,0.0,922041.0
 181694,0.8440785056193381,10.0,0.13440730018602706,Office,NonResidential,0.011860600790339803,8070420.0
+69492,1.0044321648535084,2.0,0.0,Retail Store,NonResidential,0.0,408513.0
 22780,1.0,1.0,0.0,Non-Refrigerated Warehouse,NonResidential,0.0,427697.0
 124472,0.9996063371681985,1.0,0.0,Distribution Center,NonResidential,0.0,2457017.0
 50065,0.9970638170378507,1.0,0.0,Distribution Center,NonResidential,0.0,1465535.0
@@ -427,6 +431,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 94002,0.9989681070615519,7.0,0.33348226633475886,Office,NonResidential,0.0,6832991.0
 93020,1.0,1.0,0.0,Non-Refrigerated Warehouse,NonResidential,0.0,1226435.0
 61053,0.8915859990500057,1.0,0.0,Supermarket/Grocery Store,NonResidential,0.0,13440924.0
+154159,1.252953119830824,7.0,0.0,Office,NonResidential,0.0,1990444.0
 78920,0.8312214901165738,5.0,0.0,Office,NonResidential,0.0,1992690.0
 99440,0.6545454545454545,7.0,0.23991351568785196,Office,NonResidential,0.0,6863561.0
 73260,0.8718400218400219,6.0,0.0,Office,NonResidential,0.0,2742111.0
@@ -489,8 +494,12 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 275982,0.7139596060612649,6.0,0.2857142857142857,Parking,NonResidential,0.0,5653656.0
 98668,1.0,5.0,0.0,Office,NonResidential,0.0,4785692.0
 158931,0.5043509447496083,1.0,0.21582951091983313,Office,NonResidential,0.1694886460161957,7577723.0
+105100,1.0,1.0,0.0,Office,NonResidential,0.0,21832304.0
+57176,1.0493913530152512,1.0,0.0,Retail Store,NonResidential,0.0,12037792.0
 50660,1.0,1.0,0.0,Retail Store,NonResidential,0.0,2394843.0
 61929,0.6439471007121058,2.0,0.0,Office,NonResidential,0.0,2150536.0
+165111,0.6339189999454912,4.0,0.03297175839283876,Office,NonResidential,0.0,22965152.0
+129551,0.6226736960733611,4.0,0.3280561323339843,Office,NonResidential,0.03688122824215946,25764716.0
 162420,0.5566863686738086,5.0,0.3446065755448836,Office,NonResidential,0.01315724664450191,7649110.0
 183964,0.7254191037376878,5.0,0.2541964732230219,Office,NonResidential,0.020384423039290295,15232788.0
 208210,0.5282070986023726,5.0,0.3786945871956198,Office,NonResidential,0.0,5454482.0
@@ -612,6 +621,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 119190,0.38828760802080714,3.0,0.0,Supermarket/Grocery Store,NonResidential,0.0,9586556.0
 51856,0.9276265041653811,2.0,0.07237349583461894,Automobile Dealership,NonResidential,0.0,2014721.0
 66138,0.6105415948471378,3.0,0.2095315854727993,Office,NonResidential,0.19504672049351357,4751090.0
+113944,0.5742645510075125,3.0,0.0,Office,NonResidential,0.0,17924416.0
 31334,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,823495.0
 47658,1.0,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,1122999.0
 93079,0.612232619602703,3.0,0.0,No information,NonResidential,0.0,1609757.0
@@ -624,6 +634,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 46732,1.0903877428742617,1.0,0.0,K-12 School,SPS-District K-12,0.0,2198064.0
 152693,1.4126253331848873,6.0,0.4302816763047422,Multifamily Housing,Multifamily MR (5-9),0.044553450387378596,4992165.0
 26211,1.0,2.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,1388352.0
+28260,0.502476999292286,2.0,0.24769992922859166,Multifamily Housing,Multifamily LR (1-4),0.19203821656050957,2304125.0
 44700,0.5313422818791946,1.0,0.3137360178970917,Office,NonResidential,0.22583892617449663,2065156.0
 44100,0.9070294784580499,1.0,0.0,Non-Refrigerated Warehouse,NonResidential,0.0,1696009.0
 27800,1.0,1.0,0.0,Distribution Center,NonResidential,0.0,1310481.0
@@ -666,6 +677,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 22719,1.0,3.0,0.0,Restaurant,NonResidential,0.0,1834570.0
 50141,0.670269839053868,14.0,0.0,Multifamily Housing,Multifamily HR (10+),0.0,1970956.0
 44588,1.493406297658563,2.0,0.0,Medical Office,NonResidential,0.0,14329739.0
+21600,1.0,3.0,0.0,Office,NonResidential,0.0,133880.0
 28568,1.0,2.0,0.0,Office,NonResidential,0.0,841242.0
 140049,0.5760126812758392,6.0,0.18718448543009947,Multifamily Housing,Multifamily MR (5-9),0.1462345321994445,4081951.0
 58954,1.0,5.0,0.0,Multifamily Housing,Multifamily MR (5-9),0.0,2585187.0
@@ -688,6 +700,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 24178,1.4259243940772603,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,777696.0
 107518,0.9851931769564166,3.0,0.00930076824345691,Multifamily Housing,Multifamily LR (1-4),0.00550605480012649,3970754.0
 30720,1.0,6.0,0.0,Multifamily Housing,Multifamily MR (5-9),0.0,896172.0
+167941,0.8264033202136465,24.0,0.5951613959664406,Multifamily Housing,Multifamily HR (10+),0.0,2383733.0
 38970,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,948657.0
 24648,1.0,5.0,0.0,Multifamily Housing,Multifamily MR (5-9),0.0,532670.0
 34270,0.6167493434490808,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,639325.0
@@ -706,6 +719,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 64630,1.0,3.0,0.0,Office,NonResidential,0.0,2456132.0
 20920,1.0,2.0,0.0,Worship Facility,NonResidential,0.0,1136676.0
 26640,0.7822822822822822,3.0,0.21771771771771772,Multifamily Housing,Multifamily LR (1-4),0.0,1862752.0
+40329,0.9054030598328746,7.0,0.05286518386272905,Multifamily Housing,Multifamily MR (5-9),0.019440105135262467,3545412.0
 20565,1.0,3.0,0.0,Office,NonResidential,0.0,841841.0
 34880,1.1750860091743118,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,918177.0
 56776,0.895466394251092,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,1784233.0
@@ -743,6 +757,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 53232,0.7425984370303577,5.0,0.14774947400060115,Multifamily Housing,Multifamily MR (5-9),0.08237526299969943,1724560.0
 25735,1.0,1.0,0.0,No information,NonResidential,0.0,1231145.0
 57856,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,1695729.0
+25862,0.9883999690665842,2.0,0.011600030933415823,Retail Store,NonResidential,0.0,5462958.0
 49965,0.949964975482838,2.0,0.05003502451716201,Retail Store,NonResidential,0.0,3466461.0
 53698,1.0,3.0,0.0502812022794145,Multifamily Housing,Multifamily LR (1-4),0.0,962082.0
 23338,1.2468934784471677,6.0,0.1086639814894164,Multifamily Housing,Multifamily MR (5-9),0.0,2339133.0
@@ -762,6 +777,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 33552,0.7914878397711016,3.0,0.148068669527897,Office,NonResidential,0.0,2778865.0
 26270,0.9998477350590027,2.0,0.0,Retail Store,NonResidential,0.0,1770198.0
 57620,0.8642832349878514,3.0,0.13571676501214855,Office,NonResidential,0.0,2390284.0
+33440,1.0,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,3227332.0
 28696,0.4516308893225537,2.0,0.27042096459436854,Other,NonResidential,0.21187621968218567,553875.0
 57800,1.0,5.0,0.0,Hotel,NonResidential,0.0,2668769.0
 69590,1.0,6.0,0.0,Multifamily Housing,Multifamily MR (5-9),0.0,4202335.0
@@ -785,6 +801,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 23989,1.0,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,696840.0
 26670,1.0,4.0,0.0,Medical Office,NonResidential,0.0,1494252.0
 41834,0.7158770378161304,6.0,0.2576851364918487,Multifamily Housing,Multifamily MR (5-9),0.026437825692020845,1079004.0
+34060,1.0,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,2741909.0
 37300,1.0,7.0,0.0,Multifamily Housing,Multifamily MR (5-9),0.0,1716575.0
 37740,1.031770005299417,2.0,0.0,Fire Station,Nonresidential COS,0.0,3215953.0
 328947,0.8449689463652199,6.0,0.0,Multifamily Housing,Multifamily MR (5-9),0.0,8320719.0
@@ -793,6 +810,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 22400,1.0,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,678608.0
 70200,1.0,13.0,0.0,Multifamily Housing,Multifamily HR (10+),0.0,3155391.0
 21840,1.0,6.0,0.0,Multifamily Housing,Multifamily MR (5-9),0.0,786979.0
+33880,0.8262396694214876,3.0,0.1737603305785124,Multifamily Housing,Multifamily LR (1-4),0.0,2250669.0
 393841,0.7691479556470758,18.0,0.06016895142963785,Multifamily Housing,Multifamily HR (10+),0.0,19452274.0
 23752,0.6027702930279556,1.0,0.39722970697204446,Office,NonResidential,0.0,1023618.0
 44416,1.1857889048991355,4.0,0.0,Hotel,NonResidential,0.0,2601369.0
@@ -800,6 +818,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 34080,0.6919014084507042,8.0,0.528169014084507,Multifamily Housing,Multifamily MR (5-9),0.0,1522081.0
 224732,0.8212760087570974,8.0,0.0,Multifamily Housing,Multifamily MR (5-9),0.0,10240707.0
 62607,0.8501924704905203,6.0,0.0779305828421742,Multifamily Housing,Multifamily MR (5-9),0.0,1733511.0
+31702,0.8333228187496057,4.0,0.4504447668916788,Multifamily Housing,Multifamily LR (1-4),0.0,248607.0
 29765,0.8312447505459433,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,1337968.0
 27182,1.0,4.0,0.117724965050401,Multifamily Housing,Multifamily LR (1-4),0.0,1798694.0
 126436,0.5643962162675188,4.0,0.27682780220823183,Multifamily Housing,Multifamily LR (1-4),0.15877598152424943,2420503.0
@@ -832,6 +851,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 23409,0.935922081250801,1.0,0.06407791874919902,Retail Store,NonResidential,0.0,2520919.0
 63153,0.9405095561572688,1.0,0.04365588333095815,Retail Store,NonResidential,0.015834560511772997,4917420.0
 321333,1.0,2.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,7182436.0
+26157,1.0,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,2440980.0
 24100,1.282572614107884,2.0,0.0,Hotel,NonResidential,0.0,1607578.0
 33600,0.5714285714285714,3.0,0.42857142857142855,Restaurant,NonResidential,0.0,4470620.0
 39201,0.5624856508762531,3.0,0.04591719598989822,Multifamily Housing,Multifamily LR (1-4),0.0,1769998.0
@@ -849,6 +869,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 39816,1.0,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,1357442.0
 23931,1.0,2.0,0.0,Worship Facility,NonResidential,0.0,450518.0
 21393,1.0,2.0,0.0,Worship Facility,NonResidential,0.0,813252.0
+150374,0.3179672017769029,6.0,0.14877571920677776,Multifamily Housing,Multifamily MR (5-9),0.04308590580818492,7592451.0
 78005,0.7576821998589834,6.0,0.18051406961092237,Multifamily Housing,Multifamily MR (5-9),0.059226972629959615,1735816.0
 20400,1.0023529411764707,2.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,947518.0
 47560,0.4866694701429773,2.0,0.3306139613120269,Distribution Center,NonResidential,0.17357022708158115,1242764.0
@@ -927,6 +948,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 39581,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,842593.0
 23177,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,454296.0
 54360,0.8336828550404709,5.0,0.0,Multifamily Housing,Multifamily MR (5-9),0.0,1476969.0
+70207,1.015183671143903,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,743725.0
 84116,0.6538589566788721,2.0,0.0,Office,NonResidential,0.0,2105451.0
 104000,0.9230769230769231,9.0,0.07692307692307693,Hotel,NonResidential,0.0,8227025.0
 55206,1.0,1.0,0.0,K-12 School,SPS-District K-12,0.0,1986624.0
@@ -943,6 +965,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 39320,1.0,3.0,0.0,Social/Meeting Hall,NonResidential,0.0,2916511.0
 41452,1.0,5.0,0.0,Multifamily Housing,Multifamily MR (5-9),0.0,1569569.0
 41536,1.0,5.0,0.0,Performing Arts,NonResidential,0.0,1024033.0
+45320,1.0,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,4116966.0
 35820,1.0,6.0,0.0,Hotel,NonResidential,0.0,3507714.0
 42984,0.745928717662386,4.0,0.17215708170482039,Multifamily Housing,Multifamily LR (1-4),0.023380792853154662,1245753.0
 33462,1.730201422509115,2.0,0.0,K-12 School,NonResidential,0.0,2994822.0
@@ -1102,6 +1125,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 62681,0.6220864376764889,4.0,0.11108629409230868,Multifamily Housing,Multifamily LR (1-4),0.0,1232712.0
 130983,0.5593550308055244,7.0,0.3406930670392341,Multifamily Housing,Multifamily MR (5-9),0.09995190215524152,2923484.0
 31417,0.8369672470318618,3.0,0.41028742400611135,Office,NonResidential,0.0,1101668.0
+55882,0.8616728105651194,8.0,0.04733187788554454,Multifamily Housing,Multifamily MR (5-9),0.0,5978860.0
 40109,0.8111895085890947,6.0,0.16564860754444138,Multifamily Housing,Multifamily MR (5-9),0.0,2189250.0
 46580,1.0,6.0,0.0,Self-Storage Facility,NonResidential,0.0,764820.0
 148219,0.8566040790991708,14.0,0.10565447074936411,Multifamily Housing,Multifamily HR (10+),0.03774145015146506,8603973.0
@@ -1109,6 +1133,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 139650,0.6579305406373076,6.0,0.2878625134264232,Multifamily Housing,Multifamily MR (5-9),0.05420694593626924,3318653.0
 25920,1.5,2.0,0.0,Retail Store,NonResidential,0.0,1090545.0
 32760,1.0,5.0,0.0,No information,Multifamily MR (5-9),0.0,1277589.0
+96980,0.685986801402351,6.0,0.0,Multifamily Housing,Multifamily MR (5-9),0.0,6424029.0
 25920,0.925733024691358,2.0,0.0,Office,NonResidential,0.0,1453543.0
 32460,1.0,5.0,0.0,Multifamily Housing,Multifamily MR (5-9),0.0,2120807.0
 90920,1.0998680158380993,10.0,0.0,Multifamily Housing,Multifamily HR (10+),0.0,6468083.0
@@ -1187,6 +1212,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 34680,1.0,4.0,0.0,Retail Store,NonResidential,0.0,1200811.0
 75058,1.0,3.0,0.0,Worship Facility,NonResidential,0.0,7879628.0
 67560,0.7190053285968029,10.0,0.18685612788632328,Multifamily Housing,Multifamily HR (10+),0.0941385435168739,3218824.0
+57720,0.4331254331254331,3.0,0.0,Office,NonResidential,0.0,43943.0
 36504,0.4437869822485207,1.0,0.0,Retail Store,NonResidential,0.0,2139713.0
 35200,1.0,6.0,0.0,Office,NonResidential,0.0,3054714.0
 35840,1.0,5.0,0.0,Office,NonResidential,0.0,1638229.0
@@ -1196,6 +1222,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 27250,1.1009174311926606,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,1339385.0
 49243,1.0617549702495785,4.0,0.0,Other/Specialty Hospital,NonResidential,0.0,8436996.0
 47154,0.7989990244730033,5.0,0.20100097552699664,Multifamily Housing,Multifamily MR (5-9),0.0,1972234.0
+39895,0.8015791452562978,5.0,0.09645318962275974,Multifamily Housing,Multifamily MR (5-9),0.0,2996641.0
 63681,0.8742167993593065,4.0,0.12578320064069345,Multifamily Housing,Multifamily LR (1-4),0.0,2216979.0
 57930,1.0,6.0,0.07398584498532712,Multifamily Housing,Multifamily MR (5-9),0.0,1775433.0
 62480,1.0,5.0,0.0,Multifamily Housing,Multifamily MR (5-9),0.0,2020560.0
@@ -1229,6 +1256,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 28380,1.0,3.0,0.0,Office,NonResidential,0.0,1585441.0
 508160,0.649106580604534,5.0,0.3205565176322418,Office,NonResidential,0.02331155541561713,27139746.0
 26176,0.9065556234718827,3.0,0.0,Office,NonResidential,0.0,1259456.0
+37740,0.9931372549019608,1.0,0.0,Office,NonResidential,0.0,7291418.0
 26000,1.9171923076923076,1.0,0.0,Other,Nonresidential COS,0.0,3895403.0
 178911,1.0306521119439274,7.0,0.20612483301753387,Multifamily Housing,Multifamily MR (5-9),0.0,5187610.0
 23241,1.0,3.0,0.0,Worship Facility,NonResidential,0.0,777915.0
@@ -1239,6 +1267,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 40600,0.812807881773399,2.0,0.0,Other,Nonresidential COS,0.0,2464720.0
 38038,1.0,4.0,0.5152741994847257,Office,NonResidential,0.0,2112095.0
 64596,0.6438633971143725,4.0,0.3305158214130906,Office,NonResidential,0.0,2255263.0
+41466,0.8538079390343897,3.0,0.12058071673178025,Office,NonResidential,0.030145179182945063,9621807.0
 130710,0.9222553744931528,6.0,0.6805906204575013,Office,NonResidential,0.041588248795042464,7359802.0
 35780,1.0,4.0,0.0,No information,NonResidential,0.0,2316441.0
 102120,0.7136701919310615,7.0,0.259165687426557,Multifamily Housing,Multifamily MR (5-9),0.0,2162760.0
@@ -1271,6 +1300,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 95700,0.8408672936259143,16.0,0.1591327063740857,Multifamily Housing,Multifamily HR (10+),0.0,3672931.0
 48600,1.400164609053498,5.0,0.0,Office,NonResidential,0.0,1544117.0
 29340,0.43333333333333335,3.0,0.3950920245398773,Office,NonResidential,0.09665985003408316,2154224.0
+27140,0.5257553426676492,3.0,0.4609801031687546,Multifamily Housing,Multifamily LR (1-4),0.0,2188093.0
 22710,1.0,2.0,0.0,Food Service,NonResidential,0.0,278741.0
 63861,1.0,5.0,0.2647938491411033,Multifamily Housing,Multifamily MR (5-9),0.0,4024810.0
 50376,1.0,6.0,0.0,No information,Multifamily MR (5-9),0.0,1683053.0
@@ -1294,6 +1324,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 22984,1.0918029933867037,4.0,0.1039853811347024,Multifamily Housing,Multifamily LR (1-4),0.0,633408.0
 72459,0.9144895734139307,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,2236167.0
 49252,1.2405384552911556,2.0,0.0,K-12 School,NonResidential,0.0,3886929.0
+33948,0.7140921409214093,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,172360.0
 20930,1.0,3.0,0.19111323459149546,Multifamily Housing,Multifamily LR (1-4),0.0,500256.0
 51510,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,1172785.0
 36408,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,896976.0
@@ -1357,6 +1388,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 50903,0.7300355578256684,4.0,0.0,No information,Multifamily LR (1-4),0.0,920672.0
 22320,1.0,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,1589550.0
 336003,1.0105415725454832,10.0,0.0,Multifamily Housing,Multifamily HR (10+),0.0,10149229.0
+43183,0.6155199962948382,2.0,0.2662390292476206,Office,NonResidential,0.0,7542332.0
 26873,0.8316898001711756,4.0,0.14553641201205672,Multifamily Housing,Multifamily LR (1-4),0.022773787816767758,582179.0
 20010,1.0,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,586795.0
 45680,1.0,3.0,0.0,Worship Facility,NonResidential,0.0,1988784.0
@@ -1480,6 +1512,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 31140,0.4765574823378292,2.0,0.3018625561978163,Other,NonResidential,0.22157996146435452,912592.0
 41478,0.7698538984521915,3.0,0.23014610154780848,Non-Refrigerated Warehouse,NonResidential,0.0,3234871.0
 39840,1.0,1.0,0.0,Non-Refrigerated Warehouse,NonResidential,0.0,827937.0
+24828,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,2055534.0
 43380,0.6422314430613186,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,769148.0
 36248,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,1021903.0
 26347,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,875789.0
@@ -1513,6 +1546,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 84595,0.47810154264436433,1.0,0.0,Worship Facility,NonResidential,0.0,1417778.0
 23500,1.0,1.0,0.0,Retail Store,NonResidential,0.0,1152890.0
 37448,1.0,2.0,0.0,Office,NonResidential,0.0,2547582.0
+24913,1.0,3.0,0.0,Office,NonResidential,0.0,238255.0
 22420,1.0288581623550401,1.0,0.0,Retail Store,NonResidential,0.0,1482752.0
 23728,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,518314.0
 42763,0.6753501859083787,4.0,0.32464981409162125,Multifamily Housing,Multifamily LR (1-4),0.0,955223.0
@@ -1546,6 +1580,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 23032,0.6273011462313304,4.0,0.2301146231330323,Office,NonResidential,0.0633900659951372,1158000.0
 197368,0.7343997000526934,6.0,0.22050687041465689,Multifamily Housing,Multifamily MR (5-9),0.04509342953264967,7976729.0
 45750,0.9366120218579235,3.0,0.0633879781420765,Other,NonResidential,0.0,6569660.0
+30200,1.0,4.0,0.0,No information,Multifamily LR (1-4),0.0,319341.0
 23500,1.0,2.0,0.0,Office,NonResidential,0.0,1641546.0
 22282,1.0,1.0,0.0,Office,NonResidential,0.0,529806.0
 24000,1.0,2.0,0.0,Self-Storage Facility,NonResidential,0.0,342493.0
@@ -1691,8 +1726,12 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 32688,0.8984948604992657,3.0,0.10150513950073421,Multifamily Housing,Multifamily LR (1-4),0.0,1837610.0
 50145,0.9262139794595673,3.0,0.07378602054043275,Multifamily Housing,Multifamily LR (1-4),0.0,2399762.0
 629615,1.0,26.0,0.19226987921189934,Multifamily Housing,Multifamily HR (10+),0.0,27282662.0
+24900,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,2018186.0
+25380,1.0,4.0,0.0,No information,Multifamily LR (1-4),0.0,2104220.0
+32489,0.6262427283080427,6.0,0.0,Multifamily Housing,Multifamily MR (5-9),0.0,1996728.0
 332781,0.5204744261240876,17.0,0.0,Multifamily Housing,Multifamily HR (10+),0.0,11208498.0
 54770,0.9150995070293957,4.0,0.06390359685959467,Multifamily Housing,Multifamily LR (1-4),0.020996896111009678,2996958.0
+33872,0.7705479452054794,4.0,0.05588686820973075,Multifamily Housing,Multifamily LR (1-4),0.0,395517.0
 44086,1.0001134146894706,1.0,0.0,Residence Hall/Dormitory,NonResidential,0.0,3282191.0
 54372,1.0,7.0,0.27587728978150516,Office,NonResidential,0.0,1563640.0
 24039,1.0,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,866343.0
@@ -1724,6 +1763,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 111137,0.3863609778921511,11.0,0.36781629880237904,Office,NonResidential,0.09796017527915996,9191826.0
 30080,1.0,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,612173.0
 260685,1.1706810902046532,25.0,0.36022786121180733,Multifamily Housing,Multifamily HR (10+),0.01692464085006809,15088676.0
+20467,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,348061.0
 40189,0.705342257831745,1.0,0.2267535892906019,Other - Utility,NonResidential,0.0,2046914.0
 28109,1.0,2.0,0.0,Other,NonResidential,0.0,2298648.0
 66484,0.7420431983635161,2.0,0.27074183262138257,Office,NonResidential,0.13537091631069129,3053785.0
@@ -1790,6 +1830,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 46296,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,2583968.0
 36282,0.8654429193539496,3.0,0.13455708064605038,Multifamily Housing,Multifamily LR (1-4),0.0,985236.0
 54820,0.8126048887267421,9.0,0.18739511127325795,Multifamily Housing,Multifamily MR (5-9),0.0,2157144.0
+44016,0.8473282442748091,6.0,0.15267175572519084,Multifamily Housing,Multifamily MR (5-9),0.0,585559.0
 31552,1.0,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,1566802.0
 29533,1.0,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,1324965.0
 20688,1.0,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,1521202.0
@@ -1832,6 +1873,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 23706,1.0,1.0,0.0,Worship Facility,NonResidential,0.0,398357.0
 27288,1.0,5.0,0.0,Multifamily Housing,Multifamily MR (5-9),0.0,1198401.0
 31900,0.877742946708464,1.0,0.12539184952978055,Non-Refrigerated Warehouse,NonResidential,0.0,1090032.0
+20184,1.0,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,151798.0
 49066,0.9986548730281661,1.0,0.0,Social/Meeting Hall,NonResidential,0.0,3819263.0
 30740,0.9203968770331815,3.0,0.378334417696812,Worship Facility,NonResidential,0.0,1573701.0
 21540,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,769676.0
@@ -1890,6 +1932,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 21592,0.9586884031122638,2.0,0.0,K-12 School,NonResidential,0.0,1545485.0
 62538,1.0038696472544693,6.0,0.0,Multifamily Housing,Multifamily MR (5-9),0.0,1885314.0
 25200,0.6349206349206349,3.0,0.31746031746031744,Office,NonResidential,0.0,1658751.0
+45068,1.0,1.0,0.0,Office,NonResidential,0.0,270004.0
 28296,0.9506290641786825,2.0,0.0,Office,NonResidential,0.0,1489392.0
 124260,0.6591018831482376,5.0,0.25691292451311765,Parking,Multifamily MR (5-9),0.0325849026235313,1429800.0
 71597,0.5592832101903711,6.0,0.06257245415310697,Multifamily Housing,Multifamily MR (5-9),0.0,1526587.0
@@ -1904,6 +1947,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 50784,1.0,8.0,0.0,Multifamily Housing,Multifamily MR (5-9),0.0,1705685.0
 38220,1.0,10.0,0.0,Multifamily Housing,Multifamily HR (10+),0.0,2957976.0
 35251,1.0000851039686818,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,776991.0
+24291,0.9889671071590301,1.0,0.0,Office,NonResidential,0.0,664539.0
 36544,1.0,1.0,0.0,Non-Refrigerated Warehouse,NonResidential,0.0,1303247.0
 35456,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,928167.0
 23923,1.0,2.0,0.0,K-12 School,NonResidential,0.0,872555.0
@@ -1977,6 +2021,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 64195,0.7627541085754342,4.0,0.23724589142456579,Multifamily Housing,Multifamily LR (1-4),0.0,1534832.0
 22935,1.0,4.0,0.4534554174841945,Multifamily Housing,Multifamily LR (1-4),0.0,479358.0
 84389,1.0,6.0,0.04090580525897925,Multifamily Housing,Multifamily MR (5-9),0.0,2711035.0
+22308,1.0,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,194839.0
 30920,1.0,4.0,0.23479948253557567,Multifamily Housing,Multifamily LR (1-4),0.0,1044036.0
 21755,0.8113077453458974,1.0,0.11031946678924386,Non-Refrigerated Warehouse,NonResidential,0.0,901563.0
 27933,1.0,1.0,0.0,Other,NonResidential,0.0,293217.0
@@ -1991,6 +2036,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 23596,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,512166.0
 35864,1.0,2.0,0.0,Worship Facility,NonResidential,0.0,1234149.0
 42048,0.7324724124809742,4.0,0.2675275875190259,Multifamily Housing,Multifamily LR (1-4),0.0,912509.0
+71000,1.0,6.0,0.0,Multifamily Housing,Multifamily MR (5-9),0.0,1002164.0
 32922,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,724259.0
 20484,1.0,1.0,0.0,Worship Facility,NonResidential,0.0,818317.0
 45264,0.480359667727112,4.0,0.0,Medical Office,NonResidential,0.0,1695067.0
@@ -2196,6 +2242,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 35310,0.2965448881336732,1.0,0.2796658170489946,Other,NonResidential,0.2514018691588785,1746787.0
 23420,0.8765584970111017,4.0,0.12344150298889837,Multifamily Housing,Multifamily LR (1-4),0.0,391459.0
 239054,1.0,7.0,0.0,Multifamily Housing,Multifamily MR (5-9),0.0,11598271.0
+101706,1.0,10.0,0.0,Multifamily Housing,Multifamily HR (10+),0.0,12783255.0
 36140,0.9610680686220254,3.0,0.0,Other,NonResidential,0.0,4270584.0
 47963,0.6179763567750141,2.0,0.12509642849696642,Other - Mall,NonResidential,0.0,8228399.0
 23903,0.8157971802702589,1.0,0.18826088775467514,Non-Refrigerated Warehouse,NonResidential,0.0,403800.0
@@ -2296,6 +2343,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 53820,1.0,9.0,0.0,Multifamily Housing,Multifamily MR (5-9),0.0,2791291.0
 191427,0.8502928009110523,27.0,0.5234005652285205,Multifamily Housing,Multifamily HR (10+),0.04813845486791309,9177040.0
 22392,1.0,3.0,0.16693461950696678,Multifamily Housing,Multifamily LR (1-4),0.0,574323.0
+26261,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,186270.0
 233540,0.14746938425965572,2.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,1036866.0
 65867,0.7885739444638438,6.0,0.15182109402280353,Multifamily Housing,Multifamily MR (5-9),0.059604961513352664,1593160.0
 28800,1.0,2.0,0.0,Self-Storage Facility,NonResidential,0.0,1150582.0
@@ -2352,6 +2400,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 57600,0.4791666666666667,5.0,0.2777777777777778,Residence Hall/Dormitory,NonResidential,0.12152777777777778,7175646.0
 42534,1.0,5.0,0.0,Multifamily Housing,Multifamily MR (5-9),0.0,1718845.0
 33300,0.7999699699699699,4.0,0.08468468468468468,Office,NonResidential,0.07138138138138138,1251358.0
+25450,1.0,3.0,0.0,Hotel,NonResidential,0.0,497556.0
 22200,1.0,3.0,0.0,Other,NonResidential,0.0,142873.0
 29498,0.6695030171537053,2.0,0.3101227201844193,Non-Refrigerated Warehouse,NonResidential,0.0,3456208.0
 23050,1.0,1.0,0.0,Non-Refrigerated Warehouse,NonResidential,0.0,492187.0
@@ -2373,6 +2422,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 20928,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,957567.0
 24538,0.8457086967152987,4.0,0.19553345830956068,Multifamily Housing,Multifamily LR (1-4),0.0,549834.0
 71510,0.6111033421899035,6.0,0.14823101664102922,Multifamily Housing,Multifamily MR (5-9),0.0,1987073.0
+30169,0.6207696642248666,5.0,0.19135536477841492,Multifamily Housing,Multifamily MR (5-9),0.1878749709967185,381370.0
 23595,1.0,2.0,0.0,Medical Office,NonResidential,0.0,788976.0
 98486,0.6673638892837561,6.0,0.15078285238511058,Multifamily Housing,Multifamily MR (5-9),0.0526369230144386,2237482.0
 52626,0.7738950328734846,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,1125092.0
@@ -2382,6 +2432,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 50120,0.4559656823623304,7.0,0.21211093375897846,Multifamily Housing,Multifamily MR (5-9),0.13056664006384677,1192642.0
 28142,1.0,3.0,0.0,Office,NonResidential,0.0,972608.0
 28760,0.4281641168289291,3.0,0.20931849791376914,Office,NonResidential,0.2086230876216968,2683383.0
+39030,0.8199077632590315,4.0,0.17127850371509096,Office,NonResidential,0.0,756267.0
 27838,1.0,4.0,0.0,Office,NonResidential,0.0,1344512.0
 47215,0.5010907550566557,3.0,0.47391718733453353,Office,NonResidential,0.0,3039626.0
 61580,0.5891523221825268,2.0,0.37599870087690807,Other,Nonresidential COS,0.0,4376927.0
@@ -2419,6 +2470,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 21880,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,662424.0
 29562,0.7114200663013328,4.0,0.0,No information,Multifamily LR (1-4),0.0,665549.0
 84415,0.7486584137890185,4.0,0.25134158621098146,Multifamily Housing,Multifamily LR (1-4),0.0,1645996.0
+22000,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,155388.0
 21581,1.0,4.0,0.2602289050553728,Multifamily Housing,Multifamily LR (1-4),0.0,379065.0
 57212,0.8275536600713137,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,1528236.0
 131307,1.0,2.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,5883488.0
@@ -2446,6 +2498,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 25200,1.0496031746031746,6.0,0.3148809523809524,Multifamily Housing,Multifamily MR (5-9),0.0,815800.0
 26294,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,636641.0
 36192,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,989257.0
+31008,0.7820239938080495,6.0,0.21797600619195046,Multifamily Housing,Multifamily MR (5-9),0.0,2892779.0
 53088,1.0,5.0,0.10375226039783002,Multifamily Housing,Multifamily MR (5-9),0.0,1417204.0
 20407,0.8330474837065712,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,490599.0
 47415,0.5459031951913951,7.0,0.1476326057154909,Office,NonResidential,0.12048929663608562,1645327.0
@@ -2536,6 +2589,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 88450,1.0856868287167891,7.0,0.0,Multifamily Housing,Multifamily MR (5-9),0.0,2375425.0
 27788,1.173528141643875,2.0,0.17539945300129553,Office,NonResidential,0.0,2004777.0
 524720,0.2906788382375362,6.0,0.010104436651928648,Multifamily Housing,Multifamily MR (5-9),0.0,6462938.0
+43096,1.0000464080193057,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,3458484.0
 23242,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,670367.0
 49256,1.0,8.0,0.0,Multifamily Housing,Multifamily MR (5-9),0.0,1754108.0
 33736,1.0,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,976537.0
@@ -2615,10 +2669,12 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 34948,0.5489012246766625,2.0,0.5489012246766625,Bank Branch,NonResidential,0.0,1100575.0
 34090,1.0,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,874117.0
 198752,1.0,10.0,0.1509418773144421,Senior Care Community,Multifamily HR (10+),0.0,20311228.0
+38035,1.0,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,602005.0
 191226,1.5669521926934622,4.0,0.6696265152228253,Multifamily Housing,Multifamily LR (1-4),0.034399087990126864,8909924.0
 55624,0.7375593269092479,4.0,0.2624406730907522,Multifamily Housing,Multifamily LR (1-4),0.0,1056059.0
 94410,1.0,11.0,0.0,Multifamily Housing,Multifamily HR (10+),0.0,4660015.0
 26583,0.752360531166535,5.0,0.0665086709551217,Multifamily Housing,Multifamily MR (5-9),0.0,1505639.0
+37639,0.5428943383192965,3.0,0.20077579106777543,Office,NonResidential,0.0,5689125.0
 21840,1.0,4.0,0.2175824175824176,Multifamily Housing,Multifamily LR (1-4),0.0,479638.0
 22840,0.8056042031523643,4.0,0.19439579684763572,Office,NonResidential,0.0,918514.0
 21420,0.4864612511671335,1.0,0.2334267040149393,Museum,NonResidential,0.09337068160597572,869835.0
@@ -2628,6 +2684,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 38675,0.31286360698125404,3.0,0.11069166127989657,Office,NonResidential,0.0,1826107.0
 49951,0.6414085804088007,4.0,0.4811715481171548,Office,Nonresidential COS,0.0,4565085.0
 23052,1.4292469200069409,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,725487.0
+41461,0.8126914449723837,4.0,0.19278357974964425,Multifamily Housing,Multifamily LR (1-4),0.0,3242066.0
 25880,1.0,2.0,0.0,Medical Office,NonResidential,0.0,1838121.0
 65418,1.0,6.0,0.0,Multifamily Housing,Multifamily MR (5-9),0.0,2466267.0
 65161,1.0,4.0,0.2947315111800003,Multifamily Housing,Multifamily LR (1-4),0.0,1945075.0
@@ -2644,6 +2701,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 56896,0.7165354330708661,4.0,0.28346456692913385,Office,NonResidential,0.0,1897180.0
 31023,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,839115.0
 27500,1.0,2.0,0.0,Worship Facility,NonResidential,0.0,513888.0
+36630,0.6006006006006006,2.0,0.3003003003003003,Office,NonResidential,0.0,527803.0
 26830,0.6275810659709281,3.0,0.37271710771524413,Office,NonResidential,0.0,2198421.0
 41920,1.0,5.0,0.0,Office,NonResidential,0.0,1243282.0
 36879,0.7953306759944684,5.0,0.0,Office,NonResidential,0.0,763065.0
@@ -2666,11 +2724,13 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 63336,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,1833381.0
 63236,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,1911591.0
 44202,1.0,3.0,0.04411565087552599,Multifamily Housing,Multifamily LR (1-4),0.0,1079477.0
+80539,0.8232905797191423,6.0,0.0,Multifamily Housing,Multifamily MR (5-9),0.0,6388136.0
 45067,1.0,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,2098850.0
 21990,1.0,3.0,0.4092769440654843,Multifamily Housing,Multifamily LR (1-4),0.0,625088.0
 90372,0.8655557030938786,4.0,0.13444429690612136,Multifamily Housing,Multifamily LR (1-4),0.0,1716674.0
 67813,1.0,11.0,0.22007579667615354,Multifamily Housing,Multifamily HR (10+),0.0,2938076.0
 38270,0.5915077083877711,4.0,0.15097987980141103,Multifamily Housing,Multifamily LR (1-4),0.012124379409459107,959739.0
+132150,0.2679909194097616,6.0,0.07019296254256527,Multifamily Housing,Multifamily MR (5-9),0.0546046159667045,5903142.0
 40028,0.8299690216848207,1.0,0.2550214849605276,Non-Refrigerated Warehouse,NonResidential,0.1548915758968722,962238.0
 44510,0.5904740507751067,3.0,0.40952594922489327,Office,NonResidential,0.0,2308120.0
 21624,1.0,1.0,0.0,Worship Facility,NonResidential,0.0,633536.0
@@ -2696,6 +2756,9 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 134974,0.795056825759035,7.0,0.20494317424096492,Senior Care Community,Multifamily MR (5-9),0.0,3724014.0
 31432,0.7336154237719521,3.0,0.22667981674726392,Office,NonResidential,0.03970475948078391,1426023.0
 67590,1.121911525373576,5.0,0.03698772007693446,Multifamily Housing,Multifamily MR (5-9),0.0,3383279.0
+24550,0.5498981670061099,2.0,0.45010183299389,Retail Store,NonResidential,0.0,181491.0
+24171,0.5957552438873029,3.0,0.29787762194365147,Multifamily Housing,Multifamily LR (1-4),0.10636713416904554,391058.0
+46560,1.0,4.0,0.06443298969072164,Multifamily Housing,Multifamily LR (1-4),0.0429553264604811,6960396.0
 34560,0.59375,4.0,0.4166666666666667,Multifamily Housing,Multifamily LR (1-4),0.0,1054995.0
 57770,0.5920027696036004,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,1060303.0
 23341,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,622051.0
@@ -2743,6 +2806,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 37361,1.0,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,1395311.0
 35655,1.3742813069695694,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,1425599.0
 48441,0.6049008071674821,3.0,0.39509919283251793,Multifamily Housing,Multifamily LR (1-4),0.0,2048737.0
+294707,0.5306219397571147,5.0,0.24280726280678777,Multifamily Housing,Multifamily MR (5-9),0.22657079743609754,20038944.0
 103931,0.8932368590699599,6.0,0.42315574756328717,Multifamily Housing,Multifamily MR (5-9),0.0,2947670.0
 36115,0.83361484147861,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,654245.0
 88426,0.665516929409902,4.0,0.3377739578856897,Multifamily Housing,Multifamily LR (1-4),0.0487639382082193,2679900.0
@@ -2755,6 +2819,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 36792,1.0,4.0,0.3522504892367906,Multifamily Housing,Multifamily LR (1-4),0.0,1196982.0
 23512,1.0,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,630578.0
 49518,1.0002019467668322,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,1820085.0
+326516,0.527517793921278,20.0,0.4218415024072327,Multifamily Housing,Multifamily HR (10+),0.0506407036714893,57918496.0
 28277,0.9982317784772077,7.0,0.08841107613961877,Multifamily Housing,Multifamily MR (5-9),0.0,691647.0
 21602,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,520405.0
 65689,1.0,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,1354208.0
@@ -2794,6 +2859,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 27878,0.8333452901929838,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,640374.0
 23597,0.8143408060346654,3.0,0.34025511717591217,Multifamily Housing,Multifamily LR (1-4),0.0,2171445.0
 33708,1.0,3.0,0.0,Other,NonResidential,0.0,753784.0
+24682,0.7220646625070902,3.0,0.24653593712016855,Multifamily Housing,Multifamily LR (1-4),0.0,2523037.0
 121773,0.9936521232128632,5.0,0.0,Multifamily Housing,Multifamily MR (5-9),0.0,3093378.0
 50095,0.5224074258908075,3.0,0.30300429184549355,Multifamily Housing,Multifamily LR (1-4),0.17458828226369896,964970.0
 175353,0.7902117443100489,12.0,0.03921233169663479,Multifamily Housing,Multifamily HR (10+),0.018317337028736322,6268627.0
@@ -2823,6 +2889,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 96096,1.0,3.0,0.0,No information,Multifamily LR (1-4),0.0,2529024.0
 87696,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,2188452.0
 50299,0.8210700013916777,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,1667781.0
+34882,0.8237773063471131,4.0,0.17622269365288687,Multifamily Housing,Multifamily LR (1-4),0.0,425574.0
 26808,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,664072.0
 57298,1.0625501762714231,2.0,0.0,K-12 School,SPS-District K-12,0.0,1886007.0
 78538,1.0,18.0,0.2444676462349436,Multifamily Housing,Multifamily HR (10+),0.0,5657046.0
@@ -2852,6 +2919,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 23400,0.8547863247863248,2.0,0.1441880341880342,Non-Refrigerated Warehouse,NonResidential,0.0,449955.0
 21232,1.046015448379804,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,501420.0
 22810,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,827211.0
+43346,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,4258124.0
 53280,1.0,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,2759674.0
 30720,0.9153645833333334,2.0,0.052083333333333336,Other,NonResidential,0.032552083333333336,1858029.0
 21056,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,472532.0
@@ -2911,6 +2979,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 29588,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,700899.0
 34602,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,740386.0
 45057,0.8769780500255232,4.0,0.12302194997447677,Multifamily Housing,Multifamily LR (1-4),0.0,1026921.0
+32452,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,335477.0
 76475,0.5942072572736188,2.0,0.40579274272638116,Worship Facility,NonResidential,0.0,1617421.0
 32961,1.0,2.0,0.0,K-12 School,NonResidential,0.0,1845068.0
 24800,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,666967.0
@@ -2984,6 +3053,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 203155,0.8746326696364844,4.0,0.0788265117767222,Multifamily Housing,Multifamily LR (1-4),0.046540818586793334,7860942.0
 22984,1.0,4.0,0.19578837452140618,Multifamily Housing,Multifamily LR (1-4),0.0,645756.0
 26342,0.8807228000911093,4.0,0.3530483638296257,Multifamily Housing,Multifamily LR (1-4),0.0,593042.0
+24329,1.0,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,2222906.0
 29588,0.7097471948087062,4.0,0.30417736920373123,Multifamily Housing,Multifamily LR (1-4),0.0,1256360.0
 82519,0.7572316678583114,6.0,0.0,Multifamily Housing,Multifamily MR (5-9),0.0,2549892.0
 37843,1.0,6.0,0.0,Multifamily Housing,Multifamily MR (5-9),0.0,1486270.0
@@ -3016,8 +3086,10 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 30800,1.0,1.0,0.0,Non-Refrigerated Warehouse,NonResidential,0.0,583205.0
 124642,0.8839075111118243,7.0,0.05562330514593797,Multifamily Housing,Multifamily MR (5-9),0.02718987179281462,5633047.0
 120520,0.9177231994689679,7.0,0.025248921340856288,Multifamily Housing,Multifamily MR (5-9),0.017914039163624294,2612378.0
+46725,2.1941573033707864,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,13659926.0
 30984,1.0,2.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,1167813.0
 124930,1.0588649643800527,3.0,1.0588649643800527,Multifamily Housing,Multifamily LR (1-4),0.0,6931901.0
+159840,0.7956706706706707,7.0,0.0,Multifamily Housing,Multifamily MR (5-9),0.0,14719018.0
 43732,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,3473109.0
 22168,0.5,3.0,0.5,Multifamily Housing,NonResidential,0.0,1689631.0
 37400,0.7291711229946524,1.0,0.1525668449197861,Non-Refrigerated Warehouse,NonResidential,0.11959893048128342,876958.0
@@ -3070,6 +3142,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 87458,0.4699055546662398,1.0,0.4547554254613643,Office,Nonresidential COS,0.07174872510233483,8688676.0
 35796,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,1024866.0
 43228,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,897994.0
+43228,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,637246.0
 36179,0.7911772022443959,7.0,0.0,No information,Multifamily MR (5-9),0.0,1439118.0
 51400,1.008579766536965,1.0,0.0,Supermarket/Grocery Store,NonResidential,0.0,11645414.0
 290520,0.7004027261462206,6.0,0.0,Multifamily Housing,Multifamily MR (5-9),0.0,6860521.0
@@ -3081,12 +3154,14 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 39636,1.0344131597537591,6.0,0.0,Multifamily Housing,Multifamily MR (5-9),0.0,1691963.0
 29646,1.0033056736153276,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,710816.0
 29656,1.0,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,851439.0
+39493,0.6080824449902514,5.0,0.2202922036816651,Multifamily Housing,Multifamily MR (5-9),0.215228015091282,4952487.0
 39212,1.0,3.0,0.0,Other,Nonresidential COS,0.0,773013.0
 140254,0.7707373764741112,5.0,0.1348482039727922,Multifamily Housing,Multifamily MR (5-9),0.10677057338828126,4424263.0
 38264,1.0,3.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,1834204.0
 21400,0.5484579439252336,1.0,0.42070093457943925,Other - Recreation,Nonresidential COS,0.0,4955550.0
 178000,1.0220786516853932,8.0,0.0,Laboratory,NonResidential,0.0,52412292.0
 102696,1.0,6.0,0.2043312300381709,Multifamily Housing,Multifamily MR (5-9),0.0,2557533.0
+162157,0.5469884124644635,4.0,0.44849127697231694,Office,NonResidential,0.0,39061360.0
 57495,0.7846421427950256,6.0,0.10202626315331768,Multifamily Housing,Multifamily MR (5-9),0.07993738585963997,1435915.0
 33997,1.0,4.0,0.8824308027178869,Supermarket/Grocery Store,NonResidential,0.0,9159185.0
 61656,1.0,6.0,0.0,No information,Multifamily MR (5-9),0.0,7818721.0
@@ -3126,12 +3201,14 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 120000,1.0,7.0,0.3089166666666667,Senior Care Community,Multifamily MR (5-9),0.0,4640758.0
 108872,0.7922881916378867,4.0,0.1801565140715703,Multifamily Housing,Multifamily LR (1-4),0.0,2311532.0
 80980,0.830612496912818,1.0,0.0,Supermarket/Grocery Store,NonResidential,0.0,14981114.0
+358259,0.5434252872921546,13.0,0.4168101848104304,Office,NonResidential,0.10669655193588996,14935251.0
 21762,1.388475323959195,6.0,0.266933186288025,Multifamily Housing,Multifamily MR (5-9),0.0,992139.0
 70292,1.0,2.0,0.0,Worship Facility,NonResidential,0.0,1789710.0
 38407,1.1402348530215847,6.0,0.0,Multifamily Housing,Multifamily MR (5-9),0.0,1364344.0
 90679,0.6616746986623143,7.0,0.3385568874822175,Data Center,NonResidential,0.0,32579658.0
 51287,0.8231130695887847,7.0,0.11297209819252442,Multifamily Housing,Multifamily MR (5-9),0.028603739739115175,2826646.0
 339591,0.6059288968199982,8.0,0.3278060961568475,Laboratory,NonResidential,0.0008657473254591553,45313836.0
+41929,1.1485845119129958,6.0,0.0,Office,NonResidential,0.0,562479.0
 84577,0.46016056374664505,6.0,0.23292384454402498,Multifamily Housing,Multifamily MR (5-9),0.0,1848074.0
 53708,1.6571088106054963,8.0,0.4673419229909883,Multifamily Housing,Multifamily MR (5-9),0.09030312057793997,4961405.0
 56184,0.6508080592339456,4.0,0.3477502491812616,Multifamily Housing,Multifamily LR (1-4),0.0,1128912.0
@@ -3140,6 +3217,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 24457,1.538128143271865,6.0,0.28359978738193564,Multifamily Housing,Multifamily MR (5-9),0.0,1093627.0
 51424,1.0,6.0,0.5040448039825762,Multifamily Housing,Multifamily MR (5-9),0.0,1296959.0
 198202,1.0,5.0,0.30923502285547066,Multifamily Housing,Multifamily MR (5-9),0.0,6146350.0
+83533,1.0,3.0,0.33779464403289716,Office,NonResidential,0.0,1377184.0
 227672,1.0,6.0,0.0,Multifamily Housing,Multifamily MR (5-9),0.0,5037781.0
 64578,0.727802037845706,3.0,0.0,Office,NonResidential,0.0,2401148.0
 28200,0.9219858156028369,4.0,0.024326241134751774,Multifamily Housing,Multifamily LR (1-4),0.0,764008.0
@@ -3159,6 +3237,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 29000,0.8655172413793103,1.0,0.0,Other,Nonresidential COS,0.0,2356607.0
 313841,1.0163936515624155,6.0,0.06343658094385374,Lifestyle Center,NonResidential,0.0,25672598.0
 122941,0.49247199876363457,4.0,0.3928713773273359,Multifamily Housing,Multifamily LR (1-4),0.0,1985171.0
+324765,0.5891429187258479,7.0,0.4108570812741521,Office,NonResidential,0.0,3141319.0
 145716,0.783627055367976,7.0,0.21644843393999286,Multifamily Housing,Multifamily MR (5-9),0.0,3486368.0
 34723,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,1645942.0
 55113,0.7632319053580825,6.0,0.2367680946419175,Multifamily Housing,Multifamily MR (5-9),0.0,1130960.0
@@ -3166,6 +3245,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 56988,0.4302660209166842,2.0,0.0,Automobile Dealership,NonResidential,0.0,650313.0
 237186,0.763084667729124,25.0,0.30652736670798447,Multifamily Housing,Multifamily HR (10+),0.0,11353672.0
 93179,0.683233346569506,3.0,0.316766653430494,Multifamily Housing,Multifamily LR (1-4),0.0,1972491.0
+292376,1.591956932169535,6.0,0.17670054997674228,Multifamily Housing,Multifamily MR (5-9),0.09951569212247244,9387211.0
 137068,0.5149560801937725,7.0,0.23767764905010652,Multifamily Housing,Multifamily MR (5-9),0.0,3021669.0
 97104,0.6341860273521173,7.0,0.117296918767507,Multifamily Housing,Multifamily MR (5-9),0.053241884989289834,3002337.0
 447915,0.676164004331179,6.0,0.30309098824553765,Multifamily Housing,Multifamily MR (5-9),0.021611243204625877,8386493.0
@@ -3186,6 +3266,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 428347,1.1028068365133874,3.0,0.0,College/University,NonResidential,0.0,36367960.0
 135643,0.7730586908281297,7.0,0.19092765568440687,Multifamily Housing,Multifamily MR (5-9),0.0,2910252.0
 31928,1.0,2.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,1021130.0
+49000,0.44081632653061226,3.0,0.11557142857142857,Multifamily Housing,Multifamily LR (1-4),0.08218367346938775,4777648.0
 66460,0.4809509479386097,5.0,0.14491423412578994,Multifamily Housing,Multifamily MR (5-9),0.14006921456515198,5458917.0
 167300,0.2319187089061566,3.0,0.02181709503885236,Senior Care Community,NonResidential,0.0035026897788404065,3681105.0
 41198,1.0,8.0,0.0,Supermarket/Grocery Store,NonResidential,0.0,6879291.0
@@ -3205,6 +3286,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 158967,0.431378839633383,6.0,0.27306296275327585,Multifamily Housing,Multifamily MR (5-9),0.1565041801128536,4608963.0
 42905,0.7444120731849435,7.0,0.0,Multifamily Housing,Multifamily MR (5-9),0.0,1612392.0
 45892,1.0,4.0,0.0,Senior Care Community,Multifamily LR (1-4),0.0,1246340.0
+418285,0.9999808742842798,7.0,0.30513405931362586,Multifamily Housing,Multifamily MR (5-9),0.0,7641887.0
 82087,1.0,7.0,0.30691826964074703,Multifamily Housing,Multifamily MR (5-9),0.0,1634334.0
 31990,1.0,8.0,0.0,Multifamily Housing,Multifamily MR (5-9),0.0,980073.0
 182378,0.7336411189946156,4.0,0.26706072004298764,Multifamily Housing,Multifamily LR (1-4),0.0,3869754.0
@@ -4013,6 +4095,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 27182,1.0,4.0,0.117724965050401,Multifamily Housing,Multifamily LR (1-4),0.0,2019672.875
 22374,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,520765.8125
 61802,1.0,4.0,0.0,Multifamily Housing,Multifamily LR (1-4),0.0,3906967.0
+35805,1.0,1.0,0.0,K-12 School,SPS-District K-12,0.0,431471.6875
 56473,0.46760398774635664,4.0,0.15586209338976148,Multifamily Housing,Multifamily LR (1-4),0.0,1332591.5
 51490,1.0,8.0,0.0,Multifamily Housing,Multifamily MR (5-9),0.0,1484853.75
 45348,1.0,4.0,0.10401781776484079,Multifamily Housing,Multifamily LR (1-4),0.0,1384558.625
@@ -4217,6 +4300,7 @@ PropertyGFATotal,LargestPropertyUseTypeGFARatio,NumberofFloors,SecondLargestProp
 31521,1.0,1.0,0.0,Non-Refrigerated Warehouse,NonResidential,0.0,1788148.0
 24000,0.85,1.0,0.15,Non-Refrigerated Warehouse,NonResidential,0.0,1257033.5
 21900,1.0,1.0,0.0,Self-Storage Facility,NonResidential,0.0,1333637.625
+39900,0.6265664160401002,1.0,0.37593984962406013,Retail Store,NonResidential,0.0,145468.7969
 38005,0.5672937771345875,1.0,0.28875148006841206,Non-Refrigerated Warehouse,NonResidential,0.1439547427970004,752093.625
 35579,1.0,1.0,0.0,Distribution Center,NonResidential,0.0,1096646.25
 40505,0.5800518454511788,5.0,0.36094309344525366,Multifamily Housing,Multifamily MR (5-9),0.0,685888.1875
