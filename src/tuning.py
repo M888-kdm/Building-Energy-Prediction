@@ -4,7 +4,7 @@ import numpy as np
 from pipeline import define_pipeline
 from sklearn.impute import SimpleImputer
 from sklearn.model_selection import GridSearchCV
-from sklearn.preprocessing import RobustScaler, OneHotEncoder
+from sklearn.preprocessing import RobustScaler, OneHotEncoder, FunctionTransformer
 from sklearn.metrics import make_scorer, mean_squared_error, mean_absolute_error, r2_score
 from tracking import get_experiment_id, mlflow_log_search
 from utils import get_current_date
@@ -16,6 +16,9 @@ def rmse(actual, predicted):
 scoring = {'r2': make_scorer(r2_score),
           'rmse': make_scorer(rmse, greater_is_better=False),
           'mae': make_scorer(mean_absolute_error, greater_is_better=False)}
+
+def log_transform(x):
+    return np.log1p(x)  # log1p is used to handle zero values by computing log(1 + x)
 
 def fine_tune_models(estimator_params, x_train, y_train):
 
@@ -46,7 +49,7 @@ def fine_tune_models(estimator_params, x_train, y_train):
             with mlflow.start_run(run_name=estimator_name, nested=True, experiment_id=experiment_id):  
                 estimator = settings["estimator"]
                 param_grid = settings["params"]
-                pipeline = define_pipeline(numerical_transformer=[SimpleImputer(strategy="median"), RobustScaler()],
+                pipeline = define_pipeline(numerical_transformer=[SimpleImputer(strategy="median"), FunctionTransformer(log_transform), RobustScaler()],
                                 categorical_transformer=[SimpleImputer(strategy="constant", fill_value="undefined"), OneHotEncoder(drop="if_binary", handle_unknown="ignore")],
                                 target_transformer=True,
                                 estimator=estimator
