@@ -1,5 +1,4 @@
 import mlflow
-import pandas as pd
 
 def mlflow_log_search(search):
   """Logs the results of a GridSearchCV to MLflow.
@@ -18,7 +17,7 @@ def mlflow_log_search(search):
   mlflow.sklearn.log_model(search.best_estimator_, "model")
 
 
-def find_best_run_id_by_name():
+def find_best_run_id_by_name(experiment_name):
   """Finds the run ID with the best R2 score in the specified experiment.
 
   Args:
@@ -28,18 +27,12 @@ def find_best_run_id_by_name():
     The run ID of the run with the best R2 score.
   """
 
-  # Get the experiment ID from the experiment name
-  experiment_name = "building-energy-prediction-evaluation"
-  experiment = mlflow.get_experiment_by_name(experiment_name)
-  experiment_id = experiment.experiment_id
-
   # Search for all runs in the experiment, sorted by R2 score descending
-  df = mlflow.search_runs(experiment_ids=[experiment_id], order_by=["metrics.test_r2 DESC"])
+  df = mlflow.search_runs(experiment_names=[experiment_name])
+  df = df.sort_values('metrics.test_r2', ascending=False)
 
-  # Extract the run ID of the first (best) run
-  best_run_id = df.iloc[0]['run_id']
-
-  return best_run_id
+  # Extract the run ID of the first (best) run and return it
+  return df.iloc[0]['run_id']
 
 def get_experiment_id(exp_name):
   """Retrieves the experiment ID for a given experiment name.

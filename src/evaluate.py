@@ -41,21 +41,23 @@ def evaluate_models(estimators, x_train, x_test, y_train, y_test):
                 train_metrics = eval_metrics(y_train, y_train_pred)
                 test_metrics = eval_metrics(y_test, y_test_pred)
 
-                add_prefix_to_keys(train_metrics, "train")
-                add_prefix_to_keys(test_metrics, "test")
+                logger.info(f"""{estimator_name} performance \n{pd.DataFrame({'train': train_metrics, 'test': test_metrics}).T}""")
 
                 # Add the R2 score of the model to the global dict
                 r2_scores[estimator_name] = test_metrics['r2']
+
+                train_metrics = add_prefix_to_keys(train_metrics, "train")
+                test_metrics = add_prefix_to_keys(test_metrics, "test")
 
                 # Log the regressor parameters
                 mlflow.log_params(estimator.regressor.steps[-1][1].get_params())
 
                 # Log the best metric
+                mlflow.log_metrics(train_metrics)
                 mlflow.log_metrics(test_metrics)
 
                 # Log the model
                 mlflow.sklearn.log_model(estimator, "model")
 
-                logger.info(f"""{estimator_name} performance \n{pd.DataFrame({'train': train_metrics, 'test': test_metrics}).T}""")
     mlflow.end_run()
     return max(r2_scores.items(), key=lambda item: item[1])
