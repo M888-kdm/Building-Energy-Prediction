@@ -1,7 +1,6 @@
 import os
 import pendulum
 import sys
-
 from dotenv import load_dotenv
 from logtail import LogtailHandler
 from loguru import logger

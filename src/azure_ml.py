@@ -1,17 +1,15 @@
 import os
-from azure.ai.ml import MLClient, Input
+from azure.ai.ml import MLClient
 from azure.ai.ml.entities import (
     ManagedOnlineEndpoint,
     ManagedOnlineDeployment,
     Model,
-    Environment,
-    CodeConfiguration,
     ProbeSettings
 )
 from azure.identity import DefaultAzureCredential
 from azure.ai.ml.constants import AssetTypes
 from dotenv import load_dotenv
-from tracking import find_best_run_id_by_name
+from src.tracking import find_best_run_id_by_name
 
 load_dotenv()
 
