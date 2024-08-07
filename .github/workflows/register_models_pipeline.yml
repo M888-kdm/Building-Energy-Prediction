@@ -40,24 +40,12 @@ jobs:
         run: |
           # source building-energy-prediction/bin/activate
           pytest tests
+
+      - name: Deploy model on Azure
+        run: |
+          python deploy.py
       # - name: Upload Notebook Outputs
       #   uses: actions/upload-artifact@v3
       #   with:
       #     name: notebook-outputs
       #     path: output/*.ipynb
-  deploy-model:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: "3.10.10"
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-      - name: Deploy model on Azure
-        run: |
-          python deploy.py
