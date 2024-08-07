@@ -34,7 +34,6 @@ jobs:
         run: |
           # source building-energy-prediction/bin/activate
           papermill notebooks/main.ipynb notebooks/outputs/output_main.ipynb
-        continue-on-error: true
 
       - name: Run Tests
         run: |
