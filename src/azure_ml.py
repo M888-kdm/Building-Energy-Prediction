@@ -9,7 +9,7 @@ from azure.ai.ml.entities import (
 from azure.identity import DefaultAzureCredential
 from azure.ai.ml.constants import AssetTypes
 from dotenv import load_dotenv
-from tracking import find_best_run_id_by_name
+from .tracking import find_best_run_id_by_name
 
 load_dotenv()
 

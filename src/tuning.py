@@ -4,9 +4,9 @@ from sklearn.impute import SimpleImputer
 from sklearn.model_selection import GridSearchCV
 from sklearn.preprocessing import RobustScaler, OneHotEncoder, FunctionTransformer
 from sklearn.metrics import make_scorer, mean_squared_error, mean_absolute_error, r2_score
-from src.pipeline import define_pipeline
-from src.tracking import get_experiment_id, mlflow_log_search
-from src.utils import get_current_date
+from .pipeline import define_pipeline
+from .tracking import get_experiment_id, mlflow_log_search
+from .utils import get_current_date
 
 
 def rmse(actual, predicted):
