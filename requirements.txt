@@ -20,3 +20,4 @@ azure-ai-ml==1.18.0
 azureml-mlflow
 azure-identity
 logtail-python
+ipykernel

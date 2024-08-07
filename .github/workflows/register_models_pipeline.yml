@@ -3,6 +3,7 @@ name: CI/CD Pipeline for Notebooks
 on:
   push:
     branches:
+      - main
       - Abk-coder/testAndPipeline
   pull_request:
     branches:
@@ -13,35 +14,50 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.10'
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.10.10"
 
-    - name: Install dependencies
-      run: |
-        python -m venv building-energy-prediction
-        source building-energy-prediction/bin/activate
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-        python -m ipykernel install --user --name building-energy-prediction
+      - name: Install dependencies
+        run: |
+          # python -m venv building-energy-prediction
+          # source building-energy-prediction/bin/activate
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          # python -m ipykernel install --user --name building-energy-prediction
 
-    - name: Execute Notebooks
-      run: |
-        source building-energy-prediction/bin/activate
-        papermill notebooks/main.ipynb notebooks/outputs/output_main.ipynb
-      continue-on-error: true
+      - name: Execute Notebooks
+        run: |
+          # source building-energy-prediction/bin/activate
+          papermill notebooks/main.ipynb notebooks/outputs/output_main.ipynb
+        continue-on-error: true
 
-    - name: Run Tests
-      run: |
-        source building-energy-prediction/bin/activate
-        pytest tests/
-
-    - name: Upload Notebook Outputs
-      uses: actions/upload-artifact@v3
-      with:
-        name: notebook-outputs
-        path: output/*.ipynb
+      - name: Run Tests
+        run: |
+          # source building-energy-prediction/bin/activate
+          pytest tests
+      # - name: Upload Notebook Outputs
+      #   uses: actions/upload-artifact@v3
+      #   with:
+      #     name: notebook-outputs
+      #     path: output/*.ipynb
+  deploy-model:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.10.10"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Deploy model on Azure
+        run: |
+          python deploy.py
