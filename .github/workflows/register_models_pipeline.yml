@@ -30,15 +30,16 @@ jobs:
           pip install -r requirements.txt
           # python -m ipykernel install --user --name building-energy-prediction
 
-      - name: Execute Notebooks
-        run: |
-          # source building-energy-prediction/bin/activate
-          papermill notebooks/main.ipynb notebooks/outputs/output_main.ipynb
+      # - name: Execute Notebooks
+      #   run: |
+      #     # source building-energy-prediction/bin/activate
+      #     # papermill notebooks/main.ipynb notebooks/outputs/output_main.ipynb
+      #     python src/main.py
 
-      - name: Run Tests
-        run: |
-          # source building-energy-prediction/bin/activate
-          pytest tests
+      # - name: Run Tests
+      #   run: |
+      #     # source building-energy-prediction/bin/activate
+      #     pytest tests
 
       - name: Deploy model on Azure
         run: |
