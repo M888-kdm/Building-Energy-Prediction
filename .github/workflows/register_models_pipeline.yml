@@ -31,7 +31,7 @@ jobs:
 
     - name: Execute Notebooks
       run: |
-        pip install papermill
+        source building-energy-prediction/bin/activate
         papermill notebooks/main.ipynb notebooks/outputs/output_main.ipynb
       continue-on-error: true
 
