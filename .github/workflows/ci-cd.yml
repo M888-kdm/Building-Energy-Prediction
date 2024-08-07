@@ -37,11 +37,11 @@ jobs:
 
       - name: Execute Notebooks
         run: |
-          python src/main.py
+          python main.py
 
       - name: Deploy model on Azure
         run: |
-          python src/deploy.py
+          python deploy.py
 
       # - name: Upload Notebook Outputs
       #   uses: actions/upload-artifact@v3

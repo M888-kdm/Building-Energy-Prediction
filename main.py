@@ -1,5 +1,5 @@
 import papermill as pm
-from .utils import create_dir_if_not_exists
+from src.utils import create_dir_if_not_exists
 
 notebooks = [
   '01-data-collection.ipynb',
