@@ -4,10 +4,6 @@ on:
   push:
     branches:
       - main
-      - Abk-coder/testAndPipeline
-  pull_request:
-    branches:
-      - Abk-coder/testAndPipeline
 
 jobs:
   run-notebooks-and-tests:
