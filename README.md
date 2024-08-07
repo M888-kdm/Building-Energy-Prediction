@@ -35,9 +35,7 @@ Building-Energy-Prediction-main/
 │   └── __init__.py
 ├── .github/
 │   └── workflows/
-│       ├── azure-pipelines.yml
-│       ├── deploy-model.yml
-│       └── register_models_pipeline.yml
+│       └── ci-cd.yml
 └── src/
     ├── __init__.py
     ├── azure_ml.py
