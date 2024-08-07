@@ -4,10 +4,10 @@ on:
   push:
     branches:
       - main
-      - Abk-coder/testAndPipeline
+      - Abk-coder/lastChanges
   pull_request:
     branches:
-      - Abk-coder/testAndPipeline
+      - Abk-coder/lastChanges
 
 jobs:
   run-notebooks-and-tests:
