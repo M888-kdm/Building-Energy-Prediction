@@ -13,6 +13,7 @@ dir_to_create = "notebooks/outputs"
 create_dir_if_not_exists(dir_to_create)
 
 for notebook in notebooks:
+    print(f"Executing {notebook}")
     notebook_path = f"notebooks/{notebook}"
     output_notebook = f"{'notebooks/outputs'}/{notebook.replace('.ipynb', '_output.ipynb')}"
     pm.execute_notebook(notebook_path, output_notebook)

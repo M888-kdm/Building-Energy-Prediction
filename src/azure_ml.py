@@ -39,7 +39,7 @@ def deploy_model_to_azure_ml_endpoint():
 
     # Register the model
     model = ml_client.models.create_or_update(Model(
-            path=f"azureml://jobs/{best_run_id}/outputs/artifacts/model",
+            path=f"azureml://jobs/{best_run_id}/outputs/artifacts/estimator",
             name=model_name,
             type=AssetTypes.MLFLOW_MODEL
         )
