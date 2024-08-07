@@ -16,9 +16,6 @@ scoring = {'r2': make_scorer(r2_score),
           'rmse': make_scorer(rmse, greater_is_better=False),
           'mae': make_scorer(mean_absolute_error, greater_is_better=False)}
 
-def log_transform(x):
-    return np.log1p(x)  # log1p is used to handle zero values by computing log(1 + x)
-
 def fine_tune_models(estimator_params, x_train, y_train):
 
     """Fine-tunes a set of machine learning estimators using GridSearchCV with MLflow tracking.
@@ -48,7 +45,7 @@ def fine_tune_models(estimator_params, x_train, y_train):
             with mlflow.start_run(run_name=estimator_name, nested=True, experiment_id=experiment_id):  
                 estimator = settings["estimator"]
                 param_grid = settings["params"]
-                pipeline = define_pipeline(numerical_transformer=[SimpleImputer(strategy="median"), FunctionTransformer(log_transform), RobustScaler()],
+                pipeline = define_pipeline(numerical_transformer=[SimpleImputer(strategy="median"), FunctionTransformer(np.log1p), RobustScaler()],
                                 categorical_transformer=[SimpleImputer(strategy="constant", fill_value="undefined"), OneHotEncoder(drop="if_binary", handle_unknown="ignore")],
                                 target_transformer=True,
                                 estimator=estimator
