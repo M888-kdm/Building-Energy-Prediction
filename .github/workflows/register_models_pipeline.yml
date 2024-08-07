@@ -37,7 +37,7 @@ jobs:
 
     - name: Run Tests
       run: |
-        pip install pytest
+        source building-energy-prediction/bin/activate
         pytest tests/
 
     - name: Upload Notebook Outputs
