@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  run-notebooks-and-tests:
+  main:
     runs-on: ubuntu-latest
     env:
       AZURE_TENANT_ID: "caa457c1-fc4f-4ebd-a291-6f60e76708a6"
