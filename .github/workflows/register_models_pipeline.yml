@@ -26,8 +26,8 @@ jobs:
         python -m venv building-energy-prediction
         source building-energy-prediction/bin/activate
         python -m pip install --upgrade pip
-        python -m ipykernel install --user --name building-energy-prediction
         pip install -r requirements.txt
+        python -m ipykernel install --user --name building-energy-prediction
 
     - name: Execute Notebooks
       run: |
