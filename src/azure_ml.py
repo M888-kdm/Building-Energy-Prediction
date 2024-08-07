@@ -67,6 +67,7 @@ def deploy_model_to_azure_ml_endpoint():
         model=model,
         instance_type="Standard_F4s_v2",
         instance_count=1,
+        app_insights_enabled=False,
         readiness_probe=ProbeSettings(failure_threshold=115),
         liveness_probe=ProbeSettings(failure_threshold=115),
         egress_public_network_access="enable"
