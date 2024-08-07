@@ -98,11 +98,13 @@ You can find Jupyter notebooks in the `notebooks/` directory that demonstrate da
 - `03-data-preparation.ipynb`
 - `04-modelisation.ipynb`
 
-Each of these notebooks contains some parts of the machine learning process. If you want to run them, no need to do it one by one: you can run the script src/main.py with `python src/main.py`. Outputs will be generated for each of the notebooks in the `notebooks/outputs/` directory
+Each of these notebooks contains some parts of the machine learning process. If you want to run them, no need to do it one by one: you can run the script src/main.py with `python main.py`. Outputs will be generated for each of the notebooks in the `notebooks/outputs/` directory
 
-#### Modules
+#### Modules and Scripts
 
-In the src folder, you'll find different modules containing methods that we use in the notebooks. Two of those modules are particularly special:
+In the src folder, you'll find different modules containing methods that we use in the notebooks.
+
+For this project, there are two main scripts :
 
 - `main.py` which contains the main script that executes all the notebooks
 - `deploy.py` contains the code that will pick the best model obtained after training and deploy it to Azure Machine Learning for Online Inference
