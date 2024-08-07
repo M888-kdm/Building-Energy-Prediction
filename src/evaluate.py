@@ -2,9 +2,9 @@ import mlflow
 import pandas as pd
 
 from loguru import logger
-from metrics import eval_metrics
-from tracking import get_experiment_id
-from utils import get_current_date, add_prefix_to_keys
+from src.metrics import eval_metrics
+from src.tracking import get_experiment_id
+from src.utils import get_current_date, add_prefix_to_keys
 
 def evaluate_models(estimators, x_train, x_test, y_train, y_test):
 
