@@ -12,6 +12,8 @@ from azure.ai.ml.constants import AssetTypes
 from dotenv import load_dotenv
 from tracking import find_best_run_id_by_name
 
+load_dotenv()
+
 subscription_id = os.getenv("SUBSCRIPTION_ID")
 resource_group = os.getenv("RESOURCE_GROUP")
 workspace_name = os.getenv("AML_WORKSPACE_NAME")
@@ -21,8 +23,6 @@ def get_mlflow_tracking_uri():
     Configure and Get Access to Azure workspace
     :return: mlflow_tracking_uri
     """
-    load_dotenv()
-
     token_credential = DefaultAzureCredential()
     ml_client = MLClient(credential=token_credential,
                          subscription_id=subscription_id,
