@@ -67,8 +67,8 @@ def deploy_model_to_azure_ml_endpoint():
         model=model,
         instance_type="Standard_F4s_v2",
         instance_count=1,
-        readiness_probe=ProbeSettings(failure_threshold=150),
-        liveness_probe=ProbeSettings(failure_threshold=150)
+        readiness_probe=ProbeSettings(failure_threshold=115),
+        liveness_probe=ProbeSettings(failure_threshold=115)
     )
     # Create the deployment
     ml_client.online_deployments.begin_create_or_update(blue_deployment)
