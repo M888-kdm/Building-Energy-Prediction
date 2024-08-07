@@ -109,6 +109,10 @@ For this project, there are two main scripts :
 - `main.py` which contains the main script that executes all the notebooks
 - `deploy.py` contains the code that will pick the best model obtained after training and deploy it to Azure Machine Learning for Online Inference
 
+#### Parameters
+
+Some parameters that we used during EDA and Feature Engineering are defined in the `settings/params.py` file.
+
 #### Running Tests
 
 Run the tests to ensure everything is working correctly:
