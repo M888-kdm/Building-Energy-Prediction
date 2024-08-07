@@ -3,7 +3,7 @@ name: CI/CD Pipeline for Notebooks
 on:
   push:
     branches:
-      - main
+      # - main
       - Abk-coder/testAndPipeline
   pull_request:
     branches:
