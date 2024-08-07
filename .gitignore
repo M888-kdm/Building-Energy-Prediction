@@ -4,3 +4,4 @@ mlartifacts/
 notebooks/logs.log
 __pycache__/
 .idea
+.env

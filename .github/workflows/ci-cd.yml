@@ -47,6 +47,12 @@ jobs:
         run: |
           python main.py
 
+      - name: Save notebook outputs
+        uses: actions/upload-artifact@v3 # Upload outputs to a workflow artifact
+        with:
+          name: notebook-outputs # Name of the artifact
+          path: notebooks/outputs/ # Path to the directory containing outputs
+
       - name: Deploy model on Azure
         run: |
           python deploy.py
