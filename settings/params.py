@@ -11,7 +11,7 @@ MODEL_PARAMS = {
     "SEED": 42
 }
 SEED = 42
-DATASETS_DIR = "../datasets"
-NOTEBOOKS_DIR = "../notebooks"
+DATASETS_DIR = "datasets"
+NOTEBOOKS_DIR = "notebooks"
 RAW_DATA=os.path.join(DATASETS_DIR, "raw_data.csv")
 CLEANED_DATA=os.path.join(DATASETS_DIR, "cleaned_data.csv")
