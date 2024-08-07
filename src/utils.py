@@ -22,6 +22,15 @@ def add_prefix_to_keys(dict_, prefix):
 
   return {f"{prefix}_{key}": value for key, value in dict_.items()}
 
+def create_dir_if_not_exists(dir_path):
+  """Creates a directory if it doesn't exist.
+
+  Args:
+    dir_path: The path to the directory to create.
+  """
+  if not os.path.exists(dir_path):
+    os.makedirs(dir_path)
+
 def configure_logger():
     load_dotenv()
     logtail_handler = LogtailHandler(source_token=os.getenv("BETTER_STACK_SOURCE_TOKEN"))
