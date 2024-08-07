@@ -42,7 +42,7 @@ jobs:
 
       - name: Deploy model on Azure
         run: |
-          python deploy.py
+          python src/deploy.py
       # - name: Upload Notebook Outputs
       #   uses: actions/upload-artifact@v3
       #   with:
