@@ -1,5 +1,5 @@
 import mlflow
-from src.azure_ml import deploy_model_to_azure_ml_endpoint, get_mlflow_tracking_uri
+from azure_ml import deploy_model_to_azure_ml_endpoint, get_mlflow_tracking_uri
 
 def deploy():
     uri = get_mlflow_tracking_uri()
