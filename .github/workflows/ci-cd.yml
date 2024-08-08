@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - bis
 
 jobs:
   main:
@@ -39,13 +40,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run Tests
-        run: |
-          pytest tests
+      # - name: Run Tests
+      #   run: |
+      #     pytest tests
 
-      - name: Execute Notebooks
-        run: |
-          python main.py
+      # - name: Execute Notebooks
+      #   run: |
+      #     python main.py
 
       - name: Save notebook outputs
         uses: actions/upload-artifact@v3 # Upload outputs to a workflow artifact

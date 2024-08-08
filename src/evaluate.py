@@ -57,7 +57,7 @@ def evaluate_models(estimators, x_train, x_test, y_train, y_test):
                 mlflow.log_metrics(test_metrics)
 
                 # Log the model
-                mlflow.sklearn.log_model(estimator, "estimator")
+                mlflow.sklearn.log_model(estimator, "estimator", signature=mlflow.models.infer_signature(x_train, y_train_pred))
 
     mlflow.end_run()
     return max(r2_scores.items(), key=lambda item: item[1])
