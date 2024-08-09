@@ -1,12 +1,14 @@
+from typing import Dict, Union
+
 import numpy as np
 import pandas as pd
+from sklearn.metrics import max_error, mean_absolute_error, mean_squared_error, r2_score
 
-from sklearn.metrics import  mean_squared_error, mean_absolute_error, r2_score, max_error
-from typing import Union, Dict
 
-def eval_metrics(y_actual: Union[pd.DataFrame, pd.Series, np.ndarray],
-                 y_pred: Union[pd.DataFrame, pd.Series, np.ndarray]
-                 ) -> Dict[str, float]:
+def eval_metrics(
+    y_actual: Union[pd.DataFrame, pd.Series, np.ndarray],
+    y_pred: Union[pd.DataFrame, pd.Series, np.ndarray],
+) -> Dict[str, float]:
     """Compute evaluation metrics.
 
     Args:
@@ -19,12 +21,12 @@ def eval_metrics(y_actual: Union[pd.DataFrame, pd.Series, np.ndarray],
     """
     metrics = dict()
     # Calculate Root mean squared error, named rmse
-    metrics['rmse'] = mean_squared_error(y_actual, y_pred) ** 0.5
+    metrics["rmse"] = mean_squared_error(y_actual, y_pred) ** 0.5
     # Calculate mean absolute error, named mae
-    metrics['mae'] = mean_absolute_error(y_actual, y_pred)
+    metrics["mae"] = mean_absolute_error(y_actual, y_pred)
     # Calculate R-squared: coefficient of determination, named r2
-    metrics['r2'] = r2_score(y_actual, y_pred)
+    metrics["r2"] = r2_score(y_actual, y_pred)
     # Calculate max error: maximum value of absolute error (y_actual - y_pred), named maxerror
-    metrics['maxerror'] = max_error(y_actual, y_pred)
+    metrics["maxerror"] = max_error(y_actual, y_pred)
     # Return a dictionary
     return metrics

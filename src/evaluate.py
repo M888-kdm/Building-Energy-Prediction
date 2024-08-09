@@ -1,17 +1,18 @@
 import mlflow
 import pandas as pd
-
 from loguru import logger
+
 from .metrics import eval_metrics
 from .tracking import get_experiment_id
-from .utils import get_current_date, add_prefix_to_keys
+from .utils import add_prefix_to_keys, get_current_date
+
 
 def evaluate_models(estimators, x_train, x_test, y_train, y_test):
 
     """Evaluates and compares a set of machine learning estimators on a given dataset.
 
-    This function trains each estimator on the training data, makes predictions on the testing data, 
-    calculates various evaluation metrics, and logs them within an MLflow experiment. Additionally, 
+    This function trains each estimator on the training data, makes predictions on the testing data,
+    calculates various evaluation metrics, and logs them within an MLflow experiment. Additionally,
     the function identifies the best performing estimator based on the R2 score and returns it.
 
     Args:
@@ -32,19 +33,25 @@ def evaluate_models(estimators, x_train, x_test, y_train, y_test):
     # Dict of R2 scores for the estimators
     r2_scores = {}
 
-    with mlflow.start_run(run_name=f"Session-{get_current_date()}", experiment_id=experiment_id):
+    with mlflow.start_run(
+        run_name=f"Session-{get_current_date()}", experiment_id=experiment_id
+    ):
         for estimator_name, estimator in estimators.items():
-            with mlflow.start_run(run_name=estimator_name, nested=True, experiment_id=experiment_id): 
+            with mlflow.start_run(
+                run_name=estimator_name, nested=True, experiment_id=experiment_id
+            ):
                 y_train_pred = estimator.predict(x_train)
                 y_test_pred = estimator.predict(x_test)
 
                 train_metrics = eval_metrics(y_train, y_train_pred)
                 test_metrics = eval_metrics(y_test, y_test_pred)
 
-                logger.info(f"""{estimator_name} performance \n{pd.DataFrame({'train': train_metrics, 'test': test_metrics}).T}""")
+                logger.info(
+                    f"""{estimator_name} performance \n{pd.DataFrame({'train': train_metrics, 'test': test_metrics}).T}"""
+                )
 
                 # Add the R2 score of the model to the global dict
-                r2_scores[estimator_name] = test_metrics['r2']
+                r2_scores[estimator_name] = test_metrics["r2"]
 
                 train_metrics = add_prefix_to_keys(train_metrics, "train")
                 test_metrics = add_prefix_to_keys(test_metrics, "test")

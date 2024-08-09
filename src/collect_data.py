@@ -1,15 +1,16 @@
 "Module for collecting data from datasets"
 import os
+
 import pandas as pd
 from loguru import logger
 
 
-def load_dataset(path: str)->pd.DataFrame:
+def load_dataset(path: str) -> pd.DataFrame:
     """Load dataset from local machine
-    Args: 
+    Args:
         path (str): path to load dataset
-    Returns: 
-       pd.DataFrame:   feature and target data 
+    Returns:
+       pd.DataFrame:   feature and target data
     """
     if not path:
         raise ValueError("The path like 'path' must be defined")
@@ -21,4 +22,3 @@ def load_dataset(path: str)->pd.DataFrame:
     logger.info(f"Data shape: {data.shape}")
     logger.info(f"{dataset_name} dataset fully lodded")
     return data
-    

@@ -21,3 +21,5 @@ azureml-mlflow
 azure-identity
 logtail-python
 ipykernel
+black
+isort

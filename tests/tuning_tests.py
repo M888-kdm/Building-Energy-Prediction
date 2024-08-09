@@ -1,9 +1,12 @@
+from unittest.mock import patch
+
 import numpy as np
-from unittest.mock import  patch
-from sklearn.linear_model import LinearRegression
-from sklearn.ensemble import RandomForestRegressor
 import pandas as pd
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.linear_model import LinearRegression
+
 from src.tuning import fine_tune_models, rmse
+
 
 def test_rmse():
     """Test the RMSE calculation function."""

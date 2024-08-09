@@ -1,12 +1,19 @@
 import numpy as np
-from sklearn.pipeline import make_pipeline, Pipeline
-from sklearn.compose import ColumnTransformer, make_column_selector, TransformedTargetRegressor
+from sklearn.compose import (
+    ColumnTransformer,
+    TransformedTargetRegressor,
+    make_column_selector,
+)
+from sklearn.pipeline import Pipeline, make_pipeline
 
-def define_pipeline(numerical_transformer: list,
-                    categorical_transformer: list,
-                    estimator: Pipeline,
-                    target_transformer: bool = False,
-                    **kwargs: dict) -> Pipeline:
+
+def define_pipeline(
+    numerical_transformer: list,
+    categorical_transformer: list,
+    estimator: Pipeline,
+    target_transformer: bool = False,
+    **kwargs: dict
+) -> Pipeline:
     """
     Defines a machine learning pipeline for pre-processing data and fitting a model.
 
@@ -21,14 +28,14 @@ def define_pipeline(numerical_transformer: list,
     2. **Model Fitting:**
        * Appends the chosen `estimator` (a scikit-learn pipeline) to the preprocessor.
     3. **Target Transformation (Optional):**
-       * If `target_transformer` is True, applies a logarithmic transformation 
+       * If `target_transformer` is True, applies a logarithmic transformation
          to the target variable using `TransformedTargetRegressor`.
 
     Args:
         numerical_transformer (list): List of transformers to apply to numerical features.
         categorical_transformer (list): List of transformers to apply to categorical features.
         estimator (Pipeline): A scikit-learn pipeline representing the model to be fit.
-        target_transformer (bool, optional): Whether to apply a logarithmic transformation 
+        target_transformer (bool, optional): Whether to apply a logarithmic transformation
                                               to the target variable (default: False).
         **kwargs: Additional keyword arguments passed to the `Pipeline` constructor.
 
@@ -41,8 +48,16 @@ def define_pipeline(numerical_transformer: list,
 
     preprocessor = ColumnTransformer(
         transformers=[
-            ("num", numerical_transformer, make_column_selector(dtype_include=["number"])),
-            ("cat", categorical_transformer, make_column_selector(dtype_include=["object", "bool"])),
+            (
+                "num",
+                numerical_transformer,
+                make_column_selector(dtype_include=["number"]),
+            ),
+            (
+                "cat",
+                categorical_transformer,
+                make_column_selector(dtype_include=["object", "bool"]),
+            ),
         ],
         remainder="drop",  # non-specified columns are dropped
         verbose_feature_names_out=False,  # will not prefix any feature names with the name of the transformer
@@ -50,13 +65,16 @@ def define_pipeline(numerical_transformer: list,
     # Append regressor to preprocessing pipelineregreregffdffdffd.
     # Now we have a full prediction pipeline.
     if target_transformer:
-        model_pipe1 = Pipeline(steps=[("preprocessor", preprocessor),
-                                     ("estimator", estimator)])
-        model_pipe = TransformedTargetRegressor(regressor=model_pipe1,
-                                                func=np.log,
-                                                inverse_func=np.exp)
+        model_pipe1 = Pipeline(
+            steps=[("preprocessor", preprocessor), ("estimator", estimator)]
+        )
+        model_pipe = TransformedTargetRegressor(
+            regressor=model_pipe1, func=np.log, inverse_func=np.exp
+        )
     else:
-        model_pipe = Pipeline(steps=[("preprocessor", preprocessor), ("estimator", estimator)])
-        
+        model_pipe = Pipeline(
+            steps=[("preprocessor", preprocessor), ("estimator", estimator)]
+        )
+
     # logger.info(f"{model_pipe}")
     return model_pipe
