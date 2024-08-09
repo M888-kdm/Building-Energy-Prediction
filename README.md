@@ -120,16 +120,26 @@ Run the tests to ensure everything is working correctly:
 ```bash
 pytest tests/
 ```
+
+## Deployment Architecture
+
+![alt text](image.png)
+
 ## Results
+
 ### Experiment Tracking (MLFlow on Azure Machine Learning)
+
 ![image](https://github.com/user-attachments/assets/d1f68b80-ed96-4b4d-aa3f-aaa139931a5f)
 ![image](https://github.com/user-attachments/assets/ced639ee-ba7f-4f7a-9914-6091449cf27e)
 
 ### Logging (Better Stack Logtail)
+
 ![image](https://github.com/user-attachments/assets/32a2acc0-aaa4-4224-bc53-6234a95038b1)
 
 ### Azure Machine Learning Online Inference Endpoint
+
 <img width="1440" alt="image" src="https://github.com/user-attachments/assets/e8bcd9cf-2e8c-4124-b27b-5a18f7ec6044">
 
 ### Inference Endpoint Testing
+
 <img width="1006" alt="image" src="https://github.com/user-attachments/assets/18af3f46-e25b-47a4-9aeb-51174e500eeb">
