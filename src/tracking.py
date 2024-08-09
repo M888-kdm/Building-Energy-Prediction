@@ -13,9 +13,6 @@ def mlflow_log_search(search):
   # Log the best metric
   mlflow.log_metric("best_score", search.best_score_)
 
-  # Log the best estimator
-  mlflow.sklearn.log_model(search.best_estimator_, "model")
-
 
 def find_best_run_id_by_name(experiment_name):
   """Finds the run ID with the best R2 score in the specified experiment.
